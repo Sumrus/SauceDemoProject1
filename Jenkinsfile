@@ -9,7 +9,7 @@ pipeline {
     stages{
         stage('Preperation'){
             steps{
-                git ''
+                git 'https://github.com/Sumrus/SauceDemoProject1.git'
             }
         }
         stage('Build'){
